@@ -1,72 +1,36 @@
 import React from 'react';
-// import {FiCard,
-//   FiCardActions,
-//   FiCardContent,
-//   FiCardMedia} from './FullimageCard';
-
 import Typography from "@mui/material/Typography";
-import Container from "@mui/material/Container";
+// import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import Card from "@mui/material/Card";
-// import CardActionArea from "@mui/material/CardActionArea";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-// import makeStyles from "@mui/material/styles/makeStyles";
+// import Card from "@mui/material/Card";
+// import CardActions from "@mui/material/CardActions";
+// import CardContent from "@mui/material/CardContent";
+// import CardMedia from "@mui/material/CardMedia";
 import Box from "@mui/material/Box";
+import {carouselImage,fixedDataBottom,fixedDataTop} from '../Themes/componentStyles'
 
-
-// const useStyles = makeStyles({
-//   container: {
-//     display: "flex",
-//     flexDirection: "row",
-    
-//   },
-//   card:{
-//     maxWidth: 345,
-//   },
-//   media:{
-//     height: 140,
-//   },
-//   fiCardContent: {
-//     color: "#ffffff",
-//     backgroundColor: "rgba(0,0,0,.24)"
-//   },
-//   fiCardContentTextSecondary: {
-//     color: "rgba(255,255,255,0.78)"
-//   }
-// })
 
 const BasicCard = ({title,tagLine,imgUrl})=> {
-  // const classes = useStyles();
+  
     return (
-      // <Box my={4}>
-      //   <Typography>{title}</Typography>
-      //   <FiCard className={classes.card}>
-      //     <FiCardMedia media="picture" image={imgUrl} />
-      //     <FiCardContent>
-      //       <Typography variant='h6'>{title}</Typography>
-      //       <Typography variant='body2' component="h3">{tagLine}</Typography>
-      //     </FiCardContent>
-      //     <FiCardActions>
-      //       <Button size="small" color="inherit" variant="outlined">Show All</Button>
-      //     </FiCardActions>
-      //   </FiCard>
-      // </Box>
-      <Container  sx={{border:'1px solid #ddd', borderRadius: 5,backgroundColor: 'black',color:'#ddd'}}>
-        <Box my={10} >
-          <Card sx={{height:'140px',backgroundColor: 'black',color:'#ddd'}}>
-            <CardMedia component="img" alt={title} img={imgUrl}/>
-            <CardContent>
-              <Typography variant='h6' >{title}</Typography>
-              <Typography variant='body2' component="h3">{tagLine}</Typography>
-            </CardContent>
-            <CardActions >
-              <Button size="small" color="inherit" variant="outlined">Show All</Button>
-            </CardActions>
-          </Card>
+      
+      <Box className="carouselCard"
+            sx={{flexGrow:1,position:'relative'}}
+      >
+        <Box sx={carouselImage} component="img" alt={title} src={imgUrl}></Box>
+        <Box sx={fixedDataTop} >
+          <Box>
+            <Typography variant='h6' sx={{color:'white'}}>{title}</Typography>
+            <Typography variant='body2' component="h3" sx={{color:'white',fontWeight:'Bold',fontSize:'30px'}}>{tagLine}</Typography>
+          </Box>
+
         </Box>
-      </Container>
+        <Box sx={fixedDataBottom}>
+          <Button size="small" color="inherit" variant="outlined" sx={{backgroundColor:'white',borderRadius:3}}>Show All</Button>
+        </Box>
+      </Box>
+        
+      
 
     );
   }

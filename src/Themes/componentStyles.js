@@ -61,7 +61,19 @@ export const flexBetween = {
     top: 10,
     zIndex: 10,
   };
-  
+
+  export const fixedDataBottom = {
+    position: 'absolute',
+    bottom:10,
+    left:10,
+    zIndex:10
+  }
+  export const fixedDataTop = {
+    position: 'absolute',
+    top:20,
+    left:10,
+    zIndex:10
+  }
   export const carouselImage = {
     height: 275,
     display: 'block',
