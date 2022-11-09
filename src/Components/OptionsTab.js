@@ -1,8 +1,8 @@
 import React ,{useState} from 'react';
 import Box from '@mui/material/Box';
 import Tabs, { tabsClasses } from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import Button from '@mui/material/Button';
+// import Tab from '@mui/material/Tab';
+// import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import { locationsTab,fixedTab } from '../Data/mockData';
 import { Typography } from '@mui/material';

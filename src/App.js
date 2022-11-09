@@ -4,6 +4,7 @@ import './App.css';
 import Header from './Components/Header';
 import OptionsTab from './Components/OptionsTab';
 import SectionOne from './Components/SectionOne';
+import TopSellerSection from './Components/TopSellerSection';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Header/>
           <SectionOne/>
           <OptionsTab/>
+          <TopSellerSection/>
         </Box>
       </Box>
     </>
