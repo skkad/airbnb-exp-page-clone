@@ -2,6 +2,7 @@ import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
 import './App.css';
 import Header from './Components/Header';
+import SectionOne from './Components/SectionOne';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Box>
           {/* <h4>hekl jyngmk</h4> */}
           <Header/>
-
+          <SectionOne/>
         </Box>
       </Box>
     </>

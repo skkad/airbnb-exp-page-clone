@@ -10,7 +10,7 @@ const Logo = ()=>{
             <FaAirbnb size={40}  color={pink[500]} />
             <Typography sx={{
                 ml:1,
-                fontWeight: 'bold',
+                fontWeight: 'Bold',
                 fontSize: '20px',
                 color: (theme)=> theme.palette.secondary.main
             }}
