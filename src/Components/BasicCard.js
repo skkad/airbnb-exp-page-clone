@@ -3,9 +3,9 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import {carouselImage,fixedDataBottom,fixedDataTop} from '../Themes/componentStyles'
+import Link from '@mui/material/Link';
 
-
-const BasicCard = ({title,tagLine,imgUrl})=> {
+const BasicCard = ({title,tagLine,imgUrl,url})=> {
   
     return (
       <Box className="carouselCard"
@@ -20,7 +20,11 @@ const BasicCard = ({title,tagLine,imgUrl})=> {
 
         </Box>
         <Box sx={fixedDataBottom}>
-          <Button size="small" color="inherit" variant="outlined" sx={{backgroundColor:'white',borderRadius:3}}>Show All</Button>
+          <Button size="small" color="inherit" variant="outlined" sx={{backgroundColor:'white',borderRadius:3}}>
+            <Link href={url}>
+              Show All
+            </Link>
+          </Button>
         </Box>
       </Box>   
     );

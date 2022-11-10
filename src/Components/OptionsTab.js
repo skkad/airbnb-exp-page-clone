@@ -4,6 +4,7 @@ import Tabs, { tabsClasses } from '@mui/material/Tabs';
 import Container from '@mui/material/Container';
 import { locationsTab,fixedTab } from '../Data/mockData';
 import { Typography } from '@mui/material';
+import Link from '@mui/material/Link';
 
 const OptionsTab = ()=>{
     const [value, setValue] = useState(0);
@@ -40,7 +41,9 @@ const OptionsTab = ()=>{
                             },
                     }}>
                         {locationsTab.map((tab)=>{
-                            return <Typography key={tab.id} sx={{border:'1px solid #ddd',borderRadius: 4,p:1,backgroundColor:'#ededed'}} mx={2} >{tab.lable}</Typography>
+                            return <Typography key={tab.id} sx={{border:'1px solid #ddd',borderRadius: 4,p:1,backgroundColor:'#ededed'}} mx={2} >
+                                <Link href={tab.locationUrl}>{tab.lable}</Link>
+                                </Typography>
                         })}
                     </Tabs>
                 </Container>

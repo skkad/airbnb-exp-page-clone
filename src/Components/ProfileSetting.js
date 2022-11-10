@@ -13,7 +13,7 @@ const ProfileSetting = ()=>{
     return(
         <Box sx={flexCenter}>
             {/* <h3> ProfileSetting</h3> */}
-            <Link href="#">Become A Host</Link>
+            <Link href="https://www.airbnb.co.in/host/homes" ><b>Become A Host</b></Link>
             <Stack>
                 <Button>
                     <BsGlobe size={24}/>

@@ -3,19 +3,22 @@ export const sectionOneData = [
         id: 1,
         title: 'Collection',
         tagLine: 'Most popluar around the word',
-        imgUrl: 'https://a0.muscache.com/im/pictures/e35bb307-05f4-48a4-bdc5-3b2198bb9451.jpg?im_w=720'
+        imgUrl: 'https://a0.muscache.com/im/pictures/e35bb307-05f4-48a4-bdc5-3b2198bb9451.jpg?im_w=720',
+        url:"https://www.airbnb.co.in/s/experiences?refinement_paths%5B%5D=%2Fexperiences%2Fsection%2FEXPERIENCES_TOP_BOOKED_ONLINE_GROUPING%3ATOP_BOOKED&search_type=section_navigation"
     },
     {
         id: 2,
         title: 'Collection',
         tagLine: 'Great for team building',
-        imgUrl: 'https://a0.muscache.com/im/pictures/58819d01-2a71-441d-b3bc-baae0cd64da1.jpg?im_w=720'
+        imgUrl: 'https://a0.muscache.com/im/pictures/58819d01-2a71-441d-b3bc-baae0cd64da1.jpg?im_w=720',
+        url:"https://www.airbnb.co.in/s/experiences?refinement_paths%5B%5D=%2Fexperiences%2FKG%2FTag%3A8059&search_type=section_navigation"
     },
     {
         id: 3,
         title: 'Collection',
         tagLine: 'Fun for family',
-        imgUrl: 'https://a0.muscache.com/im/pictures/bcbd20bb-1654-4ea2-a86c-2cf25666f3b6.jpg?im_w=720'
+        imgUrl: 'https://a0.muscache.com/im/pictures/bcbd20bb-1654-4ea2-a86c-2cf25666f3b6.jpg?im_w=720',
+        url:"https://www.airbnb.co.in/s/experiences?refinement_paths%5B%5D=%2Fexperiences%2Fsection%2FEXPERIENCES_SELECTED_TAGS_GROUPING%3AFAMILIES&search_type=section_navigation"
     }
 ]
 
@@ -26,21 +29,21 @@ export const fixedTab = [
 ]
 
 export const locationsTab = [
-    {id:1,lable:'Great for Group'},
-    {id:2,lable:'Family-friendly'},
-    {id:3,lable:'Animals'},
-    {id:4,lable:'Art&Writing'},
-    {id:5,lable:'Banking'},
-    {id:6,lable:'Cooking'},
-    {id:7,lable:'Dance'},
-    {id:8,lable:'Drinks'},
-    {id:9,lable:'Entertainment'},
-    {id:10,lable:'Fitness'},
-    {id:11,lable:'History&Culture'},
-    {id:12,lable:'Magic'},
-    {id:13,lable:'Social Impact'},
-    {id:14,lable:'Wellness'},
-    {id:15,lable:'Design for accessibility'}
+    {id:1,lable:'Great for Group',locationUrl:"https://www.airbnb.co.in/s/experiences/online?tab_id=experience_tab&refinement_paths%5B%5D=%2Fexperiences%2FKG%2FTag%3A6951&flexible_trip_lengths%5B%5D=one_week&rank_mode=default&kg_or_tag=Tag%3A7790&search_type=filter_change"},
+    {id:2,lable:'Family-friendly',locationUrl:"https://www.airbnb.co.in/s/experiences/online?tab_id=experience_tab&refinement_paths%5B%5D=%2Fexperiences%2FKG%2FTag%3A6951&flexible_trip_lengths%5B%5D=one_week&rank_mode=default&kg_or_tag=Tag%3A4369&search_type=filter_change"},
+    {id:3,lable:'Animals',locationUrl:"https://www.airbnb.co.in/s/experiences/online?tab_id=experience_tab&refinement_paths%5B%5D=%2Fexperiences%2FKG%2FTag%3A6951&flexible_trip_lengths%5B%5D=one_week&rank_mode=default&kg_or_tag=Tag%3A7790&search_type=filter_change"},
+    {id:4,lable:'Art&Writing',locationUrl:"https://www.airbnb.co.in/s/experiences/online?tab_id=experience_tab&refinement_paths%5B%5D=%2Fexperiences%2FKG%2FTag%3A6951&flexible_trip_lengths%5B%5D=one_week&rank_mode=default&kg_or_tag=Tag%3A7790&search_type=filter_change"},
+    {id:5,lable:'Banking',locationUrl:"https://www.airbnb.co.in/s/experiences/online?tab_id=experience_tab&refinement_paths%5B%5D=%2Fexperiences%2FKG%2FTag%3A6951&flexible_trip_lengths%5B%5D=one_week&rank_mode=default&kg_or_tag=Tag%3A7790&search_type=filter_change"},
+    {id:6,lable:'Cooking',locationUrl:"https://www.airbnb.co.in/s/experiences/online?tab_id=experience_tab&refinement_paths%5B%5D=%2Fexperiences%2FKG%2FTag%3A6951&flexible_trip_lengths%5B%5D=one_week&rank_mode=default&kg_or_tag=Tag%3A7790&search_type=filter_change"},
+    {id:7,lable:'Dance',locationUrl:"https://www.airbnb.co.in/s/experiences/online?tab_id=experience_tab&refinement_paths%5B%5D=%2Fexperiences%2FKG%2FTag%3A6951&flexible_trip_lengths%5B%5D=one_week&rank_mode=default&kg_or_tag=Tag%3A7790&search_type=filter_change"},
+    {id:8,lable:'Drinks',locationUrl:"https://www.airbnb.co.in/s/experiences/online?tab_id=experience_tab&refinement_paths%5B%5D=%2Fexperiences%2FKG%2FTag%3A6951&flexible_trip_lengths%5B%5D=one_week&rank_mode=default&kg_or_tag=Tag%3A7790&search_type=filter_change"},
+    {id:9,lable:'Entertainment',locationUrl:"https://www.airbnb.co.in/s/experiences/online?tab_id=experience_tab&refinement_paths%5B%5D=%2Fexperiences%2FKG%2FTag%3A6951&flexible_trip_lengths%5B%5D=one_week&rank_mode=default&kg_or_tag=Tag%3A7790&search_type=filter_change"},
+    {id:10,lable:'Fitness',locationUrl:"https://www.airbnb.co.in/s/experiences/online?tab_id=experience_tab&refinement_paths%5B%5D=%2Fexperiences%2FKG%2FTag%3A6951&flexible_trip_lengths%5B%5D=one_week&rank_mode=default&kg_or_tag=Tag%3A7790&search_type=filter_change"},
+    {id:11,lable:'History&Culture',locationUrl:"https://www.airbnb.co.in/s/experiences/online?tab_id=experience_tab&refinement_paths%5B%5D=%2Fexperiences%2FKG%2FTag%3A6951&flexible_trip_lengths%5B%5D=one_week&rank_mode=default&kg_or_tag=Tag%3A7790&search_type=filter_change"},
+    {id:12,lable:'Magic',locationUrl:"https://www.airbnb.co.in/s/experiences/online?tab_id=experience_tab&refinement_paths%5B%5D=%2Fexperiences%2FKG%2FTag%3A6951&flexible_trip_lengths%5B%5D=one_week&rank_mode=default&kg_or_tag=Tag%3A7790&search_type=filter_change"},
+    {id:13,lable:'Social Impact',locationUrl:"https://www.airbnb.co.in/s/experiences/online?tab_id=experience_tab&refinement_paths%5B%5D=%2Fexperiences%2FKG%2FTag%3A6951&flexible_trip_lengths%5B%5D=one_week&rank_mode=default&kg_or_tag=Tag%3A7790&search_type=filter_change"},
+    {id:14,lable:'Wellness',locationUrl:"https://www.airbnb.co.in/s/experiences/online?tab_id=experience_tab&refinement_paths%5B%5D=%2Fexperiences%2FKG%2FTag%3A6951&flexible_trip_lengths%5B%5D=one_week&rank_mode=default&kg_or_tag=Tag%3A7790&search_type=filter_change"},
+    {id:15,lable:'Design for accessibility',locationUrl:"https://www.airbnb.co.in/s/experiences/online?tab_id=experience_tab&refinement_paths%5B%5D=%2Fexperiences%2FKG%2FTag%3A6951&flexible_trip_lengths%5B%5D=one_week&rank_mode=default&kg_or_tag=Tag%3A7790&search_type=filter_change"}
 ]
 
 export const locations = [

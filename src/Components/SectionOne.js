@@ -36,7 +36,7 @@ const SectionOne = ()=>{
                             return (
                                 <Grid item xs={12} sm={4} md={4} key={item.id}>
                                     
-                                    <BasicCard  title={item.title} tagLine={item.tagLine} imgUrl={item.imgUrl}/>
+                                    <BasicCard  title={item.title} tagLine={item.tagLine} imgUrl={item.imgUrl} url={item.url}/>
                                     
                                 </Grid>
                             )

@@ -1,3 +1,13 @@
+=======================================================================================================
+# Clickable link 
+If you click some buttons or links it will take you to the offical page of that particular function.
+- If you click 'Become Host' in Header section it will show offical host page of airbnb.
+- If you click 'Show All' button in New week section it will show offical page from airbnb.
+- If you click 'Any filter option' button in optionsTab section it will show offical filter page from airbnb.
+
+
+=======================================================================================================
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
