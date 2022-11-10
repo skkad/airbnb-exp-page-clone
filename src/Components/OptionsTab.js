@@ -1,8 +1,6 @@
 import React ,{useState} from 'react';
 import Box from '@mui/material/Box';
 import Tabs, { tabsClasses } from '@mui/material/Tabs';
-// import Tab from '@mui/material/Tab';
-// import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import { locationsTab,fixedTab } from '../Data/mockData';
 import { Typography } from '@mui/material';
@@ -30,7 +28,7 @@ const OptionsTab = ()=>{
                         return <Typography key={tab.id} sx={{border:'1px solid #ddd',borderRadius: 4,p:1}} mx={0.3} >{tab.lable}</Typography>
                     })}
                 </Tabs> 
-                {/* < Typography mx={0.5} >{' | '}</Typography> */}
+                {/* scroll tab box*/}
                 <Container>
                     <Tabs value={value}
                         onChange={handleChange}
@@ -46,8 +44,7 @@ const OptionsTab = ()=>{
                         })}
                     </Tabs>
                 </Container>
-            </Box>
-            {/* scroll tab box*/}
+            </Box>     
         </Container>
     )
 }

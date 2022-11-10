@@ -1,6 +1,6 @@
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import React from "react";
+import React  from "react";
 import { dFlex, flexBetweenCenter } from "../Themes/componentStyles";
 import Container from "@mui/material/Container";
 import BasicCard from "./BasicCard";
@@ -21,33 +21,29 @@ const SectionOne = ()=>{
                     <Typography sx={{ml:1,fontWeight:'Bold',fontSize:'30px'}}>
                         New This Week
                     </Typography>
-                    {/* carsoule arrow */}
+                    
                     <Container sx={{...dFlex,justifyContent:'flex-end',alignItems:'center'}}>
                         <IconButton >
                             <FaArrowCircleLeft />  
                         </IconButton>
-                        <IconButton >
+                        <IconButton>
                             <FaArrowCircleRight />
                         </IconButton>
                     </Container>   
                 </Box>
-                {/* <BasicCard title="Collection" tagLine="Most popluar around the word" imgUrl="../../public/images/s1/img-1.jpg" /> 
-                <BasicCard title="Collection" tagLine="Most popluar around the word" imgUrl="../../public/images/s1/img-1.jpg"/>
-                <BasicCard title="Collection" tagLine="Most popluar around the word" imgUrl="../../public/images/s1/img-1.jpg"/> */}
-
                 <Grid container spacing={{ xs: 2, md: 3 }}>
-                {data.map((item)=>{
-                    return (
-                        <Grid item xs={12} sm={6} md={4} key={item.id}>
-                            <BasicCard  title={item.title} tagLine={item.tagLine} imgUrl={item.imgUrl}/>
-                        </Grid>
-                    )
-                    
-                })}
-                </Grid>
-                
+                        {data.map((item)=>{
+                            return (
+                                <Grid item xs={12} sm={4} md={4} key={item.id}>
+                                    
+                                    <BasicCard  title={item.title} tagLine={item.tagLine} imgUrl={item.imgUrl}/>
+                                    
+                                </Grid>
+                            )
+                            
+                        })}
+                </Grid>                               
             </Container>
-            
         </Box>
     )
 }

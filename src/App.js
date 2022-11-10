@@ -20,8 +20,14 @@ function App() {
         <Box>
           {/* <h4>hekl jyngmk</h4> */}
           <Header/>
-          <SectionOne/>
+        </Box>
+        <Box>
+          <SectionOne/>  
+        </Box>
+        <Box>
           <OptionsTab/>
+        </Box>
+        <Box>
           <TopSellerSection/>
         </Box>
       </Box>

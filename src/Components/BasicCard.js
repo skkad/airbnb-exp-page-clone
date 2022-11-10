@@ -1,11 +1,6 @@
 import React from 'react';
 import Typography from "@mui/material/Typography";
-// import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-// import Card from "@mui/material/Card";
-// import CardActions from "@mui/material/CardActions";
-// import CardContent from "@mui/material/CardContent";
-// import CardMedia from "@mui/material/CardMedia";
 import Box from "@mui/material/Box";
 import {carouselImage,fixedDataBottom,fixedDataTop} from '../Themes/componentStyles'
 
@@ -13,7 +8,6 @@ import {carouselImage,fixedDataBottom,fixedDataTop} from '../Themes/componentSty
 const BasicCard = ({title,tagLine,imgUrl})=> {
   
     return (
-      
       <Box className="carouselCard"
             sx={{flexGrow:1,position:'relative'}}
       >
@@ -28,10 +22,7 @@ const BasicCard = ({title,tagLine,imgUrl})=> {
         <Box sx={fixedDataBottom}>
           <Button size="small" color="inherit" variant="outlined" sx={{backgroundColor:'white',borderRadius:3}}>Show All</Button>
         </Box>
-      </Box>
-        
-      
-
+      </Box>   
     );
   }
 

@@ -57,8 +57,8 @@ export const flexBetween = {
   
   export const fixedIcon = {
     position: 'absolute',
-    right: 10,
-    top: 10,
+    right: 15,
+    top: 20,
     zIndex: 10,
   };
 
